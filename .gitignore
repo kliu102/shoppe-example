@@ -22,3 +22,6 @@ config/session_token.yml
 
 # Ignore assets
 public/assets
+
+# Ingore IDE
+.idea
