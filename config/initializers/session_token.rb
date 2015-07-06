@@ -5,4 +5,4 @@ unless File.exists?(token_file)
   end
 end
 
-ExampleStore::Application.config.secret_token = YAML.load_file(token_file)
+MissAS::Application.config.secret_token = YAML.load_file(token_file)

@@ -25,3 +25,5 @@ public/assets
 
 # Ingore IDE
 .idea
+
+vendor/

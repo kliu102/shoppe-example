@@ -8,14 +8,14 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     = yield :head
   %body
-    
-    %div.demo
-      .inner
-        %ul.links
-          %li= link_to "Play with Shoppe Admin", "/shoppe"
-          %li= link_to "Browse the code", "http://github.com/tryshoppe/core"
-        %p.text This is a demo store built with #{link_to 'Shoppe', 'http://tryshoppe.com'} - an open source e-commerce platform for Rails.
-    
+
+    -#%div.demo
+    -#  .inner
+    -#    %ul.links
+    -#      %li= link_to "Play with Shoppe Admin", "/shoppe"
+    -#      %li= link_to "Browse the code", "http://github.com/tryshoppe/core"
+    -#    %p.text This is a demo store built with #{link_to 'Shoppe', 'http://tryshoppe.com'} - an open source e-commerce platform for Rails.
+    -#
     = display_flash
     
     / The main header displayed on all pages
@@ -35,11 +35,11 @@
             %li= link_to "FAQs", page_path(:faqs), :nav_item => :faqs
             %li= link_to "Get in touch", page_path(:contact), :nav_item => :contact
           %h1= link_to Shoppe.settings.store_name, root_path
-        
-        - if @full_header
-          %h2 Welcome to our <em>shoppe</em>.
-          %p.intro Check out our lovely products on this page and then you can buy them through the website with just a few clicks using our supremely simple ordering system.
-      
+
+        -#- if @full_header
+        -#  %h2 欢迎来到 <em>剪刀手</em>
+        -#  %p.intro Check out our lovely products on this page and then you can buy them through the website with just a few clicks using our supremely simple ordering system.
+        -#
       - if @full_header
         .bar
           .inner
@@ -62,7 +62,7 @@
         / Primary section
         %section.primary
           = yield
-      
+
     / Footer
     %footer.main
       .inner
