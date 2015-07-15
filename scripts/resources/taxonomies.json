@@ -1,0 +1,87 @@
+{
+  "女士#female": {
+    "女士上妆#female-shirts": {
+      "女士衬衫#female-shirt": {},
+      "女士T恤#female-t-shirt": {},
+      "女士卫衣#female-sweatshirts": {},
+      "女士POLO#female-polo": {},
+      "女士背心#female-vest": {},
+      "女士雪纺衫#female-chiffon-shirt": {},
+      "女士针织衫#female-sweaters": {},
+      "女士毛衣#female-sweater": {}
+    },
+    "女士裤装#female-pants": {
+      "女士打底裤#female-leggings": {},
+      "女士牛仔裤#female-jeans": {},
+      "女士哈伦裤#female-harem-pants": {},
+      "女士休闲裤#female-casual-pants": {},
+      "女士9分裤#female-9-pants": {},
+      "女士7分裤#female-7-pants": {},
+      "女士短裤#female-short-pants": {},
+      "女士连体裤#female-rompers": {}
+    },
+    "裙装#skirts": {
+      "连衣裙#dress": {},
+      "半身裙#skirt": {},
+      "迷你裙#mini-skirt": {},
+      "牛仔裙#jean-skirt": {},
+      "套裙#overskirt": {},
+      "礼服#formal-dress": {}
+    },
+    "女士外套#female-coat": {
+      "女士风衣#female-wind-coat": {},
+      "女士夹克#female-jacket": {},
+      "女士大衣#female-over-coat": {},
+      "女士羽绒服#female-down-coat": {},
+      "女士皮草#female-fur": {},
+      "女士休闲西装#female-casual-suit": {},
+      "女士皮衣#female-fur-clothing": {},
+      "女士斗篷#female-cloak": {}
+    },
+    "女士内衣#female-underwear": {},
+    "女士套装#female-suit": {}
+  },
+  "男士#male": {
+    "男士上装#male-shirts": {
+      "男士衬衫#male-shirt": {},
+      "男士T恤#male-t-shirt": {},
+      "男士卫衣#male-sweatshirts": {},
+      "男士背心#male-vest": {},
+      "男士针织衫#male-sweaters": {},
+      "男士POLO衫#male-polo-shirt": {}
+    },
+    "男士裤装#male-pants": {
+      "男士休闲裤#male-casual-pants": {},
+      "男士牛仔裤#male-jean": {},
+      "男士运动裤#male-sport-pants": {},
+      "男士哈伦裤#harem-pants": {},
+      "男士西裤#male-suit-pants": {},
+      "男士短裤#male-short-pants": {},
+      "男士七分裤#male-7-pants": {},
+      "男士九分裤#male-9-pants": {},
+      "男士连体裤#male-rompers": {}
+    },
+    "男士外套#male-coat": {
+      "男士风衣#male-wind-coat": {},
+      "男士夹克#male-jacket": {},
+      "男士大衣#male-over-coat": {},
+      "男士羽绒服#male-down-coat": {},
+      "男士皮草#male-fur": {},
+      "男士便西#male-causal-suit": {},
+      "男士皮衣#male-fur-clothing": {}
+    }
+  },
+  "童装#teenager": {
+    "男童#boy": {
+      "男童卫衣#boy-sweatshirts": {},
+      "男童T恤#boy-t-shirt": {}
+    },
+    "女童#girl": {
+      "女童外套#girl-coat": {},
+      "女童连衣裙#girl-dress": {},
+      "女童卫衣#girl-sweatshirts": {},
+      "女童T恤#girl-t-shirt": {},
+      "女童半身裙#girl-midi-skirt": {}
+    }
+  }
+}

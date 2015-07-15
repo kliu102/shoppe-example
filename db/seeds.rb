@@ -19,7 +19,7 @@ ds.delivery_service_prices.create!(:code => 'Parcel', :min_weight => 5, :max_wei
 # categories
 cat1 = Shoppe::ProductCategory.create!(:name => 'VoIP Phones')
 cat2 = Shoppe::ProductCategory.create!(:name => 'VoIP Accessories')
-cat3 = Shoppe::ProductCategory.create!(:name => 'Network Eqipment')
+cat3 = Shoppe::ProductCategory.create!(:name => 'Network Equipment')
 
 def get_file(name, content_type = 'image/jpeg')
   file = ActionDispatch::Http::UploadedFile.new(:tempfile => File.open(File.join(Shoppe.root, 'db', 'seeds_data', name), 'rb'))
